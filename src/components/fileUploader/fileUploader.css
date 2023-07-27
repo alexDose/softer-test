@@ -1,0 +1,38 @@
+.container {
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+    font-family: "YS", sans-serif;
+}
+
+.fileInput {
+    display: none;
+}
+
+.inputLabel {
+    position: relative;
+    background-color: #ffdc60;
+    padding: 9px 80px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 14px;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.icon {
+    position: absolute;
+    left: 10px;
+    top: 10px;
+}
+
+.inputLabel:hover {
+    background-color: #ffd21f;
+}
+
+.inputLabel:active {
+    transform: scale(0.96);
+}
+
+
